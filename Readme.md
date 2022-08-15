@@ -1,12 +1,12 @@
-# N11 Favourite Product Project
+#        N11 Favourite Product Project 
 
-<hr/>
+
 n11.com was established in March 2013 in partnership with
 Dogus Group and SK Group which is one of the largest technologies Company in South Korea.
 n11.com is one of Turkey's  open market concept shopping platforms.
 
 Here is the [Link](https://www.n11.com/genel/hakkimizda-65207) for more information.
-<hr/>
+
 
 ## Steps to Create Project
 1. Create a maven project called `FavouriteProductScenario`.
