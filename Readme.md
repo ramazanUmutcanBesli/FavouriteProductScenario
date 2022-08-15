@@ -1,4 +1,4 @@
-#        N11 Favourite Product Project 
+# N11 Favourite Product Project 
 
 
 n11.com was established in March 2013 in partnership with
@@ -46,12 +46,6 @@ Here is the [Link](https://www.n11.com/genel/hakkimizda-65207) for more informat
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>7.3.4</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.7.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
