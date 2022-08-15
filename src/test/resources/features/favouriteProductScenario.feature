@@ -19,7 +19,7 @@ Feature: N11 Favourite Product
     And user search "Iphone" on the search button
     And verify that "Iphone" word is searched
     And user click second page of Search page
-    And verify that second page is opened
+    And verify that 2 nd page is opened
     And user put first 3 products in favourite
     And user click My Account button
     And user click My Favourite button

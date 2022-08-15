@@ -24,5 +24,7 @@ public class BasePage {
     @FindBy(className = "logoutBtn")
     public WebElement logOutButton;
 
+    @FindBy(className = "user")
+    public WebElement loginVerifyButton;
 
 }

@@ -11,6 +11,7 @@ public class FavouritePage extends BasePage{
     public FavouritePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
     @FindBy(xpath = "//a[@href='https://www.n11.com/hesabim/istek-listelerim']")
     public WebElement favouriteListButton;
 
