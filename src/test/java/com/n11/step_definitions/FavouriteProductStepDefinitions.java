@@ -115,9 +115,7 @@ public class FavouriteProductStepDefinitions {
     @Given("user delete {int} of favourite products which are cheaper than others from List page")
     public void user_delete_of_favourite_products_which_are_cheaper_than_others_from_list_page(Integer int1) {
         List<WebElement> product= cheaperProductList(favouritePage.listOfProduct);
-        for (int i = 0; i < product.size(); i++) {
 
-        }
     }
 
     @Given("verify that product is deleted")
