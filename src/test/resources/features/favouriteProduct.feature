@@ -1,6 +1,5 @@
 Feature: N11 Favourite Product
   Description:
-
   1:The scenario below should happen.
   2:A screenshot of the transition and validity should be taken (added in the reports).
   3:Github should be shared.

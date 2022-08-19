@@ -96,4 +96,23 @@ Here is the [Link](https://www.n11.com/genel/hakkimizda-65207) for more informat
 9. Create a package called `utilities`.
    10. create a java class called `ConfigurationReader` which allow us to take data from `configuration.properties` file.
    11. create a java class called `Driver` which create new Driver for each thread.
-   12. 
+10. Create a `features` package under `resources`
+    11. favouriteProduct.feature file create in features.package
+    ```Feature: N11 Favourite Product
+      Description:
+      1:The scenario below should happen.
+      2:A screenshot of the transition and validity should be taken (added in the reports).
+      3:Github should be shared.
+      4:A readme file should be added in the project and how it will be run should be written.
+      Scenario: Add Favourite Products and delete product
+      Given user is on Home page
+      And user search "Iphone" on search box
+      And verify "Iphone" word is displayed
+      And user click second page of iphone page
+      And verify 2 nd page is opened
+      And user put 3 rd product in shopping cart
+      And user move to shopping cart page
+      Then user delete this product from shopping cart```
+11. Created unimplemented snippets in `step_definitions` package.
+12. create java class called a `ProductInShoppingCartStepDefinitions`.
+    13. In this class implement code of Test cases.
