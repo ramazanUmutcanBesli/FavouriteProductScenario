@@ -7,9 +7,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BrowserUtils {
+    public static void sleep(int value){
+        try{
+            Thread.sleep(value);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
     /**
      *This method will verify if the current URL contains expected Value.
      * @param expectedInURL
+     *
      */
     public static void verifyURLContains(String expectedInURL){
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));

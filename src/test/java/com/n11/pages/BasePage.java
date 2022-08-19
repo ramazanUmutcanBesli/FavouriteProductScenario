@@ -9,10 +9,10 @@ public class BasePage {
     public BasePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy(className = "btnSignIn")
+    @FindBy(xpath = "//a[@class='btnSignIn']")
     public WebElement loginPageButton;
 
-    @FindBy(xpath = "//a[@class='logo  home ']")
+    @FindBy(xpath = "//img[@alt='hayat sana gelir']")
     public WebElement homePageButton;
 
     @FindBy(id = "searchData")
@@ -24,6 +24,8 @@ public class BasePage {
     @FindBy(className = "logoutBtn")
     public WebElement logOutButton;
 
+    @FindBy(xpath = "//span[@class='btn baseBtn-green']")
+    public WebElement textButton;
     @FindBy(className = "user")
     public WebElement loginVerifyButton;
 

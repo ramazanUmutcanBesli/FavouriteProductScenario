@@ -9,14 +9,8 @@ public class LoginPage extends BasePage {
     public LoginPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+    @FindBy(xpath = "//span[1][@class='setCookieBtn pickAll']")
+    public WebElement acceptButton;
 
-    @FindBy(id = "email")
-    public WebElement emailBox;
-
-    @FindBy(id = "password")
-    public WebElement passwordBox;
-
-    @FindBy(id = "loginButton")
-    public WebElement loginButton;
 
 }
